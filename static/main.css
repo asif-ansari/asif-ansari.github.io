@@ -2880,12 +2880,26 @@ blockquote {
   font-weight: 300;
   margin: 5px 0;
   text-align: center;
+  display: block;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .text-rotation {
   display: block;
   width: 100%;
   position: relative;
+  text-align: center;
+}
+
+.text-rotation .owl-carousel {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.text-rotation .item {
+  text-align: center;
 }
 
 .start-page .mask {
