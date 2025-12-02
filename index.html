@@ -1,620 +1,139 @@
 <!DOCTYPE html>
-<html class=" js no-touch cssanimations csstransforms csstransforms3d csstransitions js no-touch cssanimations csstransforms csstransforms3d csstransitions" style="" lang="en">
+<html class="js no-touch cssanimations csstransforms csstransforms3d csstransitions" lang="en">
 <head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <style>
-        .gm-control-active>img{box-sizing:content-box;display:none;left:50%;pointer-events:none;position:absolute;top:50%;transform:translate(-50%,-50%)}
-        .gm-control-active>img:nth-child(1){display:block}
-        .gm-control-active:hover>img:nth-child(1),.gm-control-active:active>img:nth-child(1){display:none}
-        .gm-control-active:hover>img:nth-child(2),.gm-control-active:active>img:nth-child(3){display:block}
-    </style>
-    <link type="text/css" rel="stylesheet" href="static/css.css">
-    <style>
-        .gm-ui-hover-effect{opacity:.6}.gm-ui-hover-effect:hover{opacity:1}
-    </style>
-    <style>
-        .gm-style .gm-style-cc span,.gm-style .gm-style-cc a,.gm-style .gm-style-mtc div{font-size:10px;box-sizing:border-box}
-    </style>
-    <style>
-        @media print {  .gm-style .gmnoprint, .gmnoprint {    display:none  }}@media screen {  .gm-style .gmnoscreen, .gmnoscreen {    display:none  }}
-    </style>
-    <style>
-        .gm-style-pbc{transition:opacity ease-in-out;background-color:rgba(0,0,0,0.45);text-align:center}
-        .gm-style-pbt{font-size:22px;color:white;font-family:Roboto,Arial,sans-serif;position:relative;margin:0;top:50%;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%)}
-    </style>
-    <style>
-        .gm-style img{max-width: none;}.gm-style {font: 400 11px Roboto, Arial, sans-serif; text-decoration: none;}
-    </style>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
-    <title>Asif Ansari</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <meta name="description" content="Asif Ansari">
-    <meta name="keywords" content="vcard, resposnive, retina, resume, jquery, css3, bootstrap, Material CV, portfolio">
-    <meta name="author" content="lmpixels">
-
-
-    <link rel="stylesheet" href="static/reset.css" type="text/css">
-    <link rel="stylesheet" href="static/bootstrap-grid.css" type="text/css">
-    <link rel="stylesheet" href="static/animations.css" type="text/css">
-    <link rel="stylesheet" href="static/perfect-scrollbar.css" type="text/css">
-    <link rel="stylesheet" href="static/owl.css" type="text/css">
-    <link rel="stylesheet" href="static/magnific-popup.css" type="text/css">
-    <link rel="stylesheet" href="static/main.css" type="text/css">
-
-    <script src="static/modernizr.js"></script>
-    <script>
-        var curr = 'home';
-        var curr_b = '';
-        document.addEventListener("DOMContentLoaded", (event) => {
-            curr_b = document.getElementById("nav_b");
-        });
-        
-        function nav(but, page) {
-            document.getElementById(curr).classList.remove("section-active");
-            document.getElementById(page).classList.add("section-active");
-            curr = page;
-            curr_b.classList.remove('active');
-            but.classList.add('active');
-            curr_b = but;
-        }
-    </script>
+<title>Asif Ansari</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="description" content="Asif Ansari">
+<meta name="keywords" content="vcard, resposnive, retina, resume, jquery, css3, bootstrap, Material CV, portfolio">
+<meta name="author" content="lmpixels">
+<link rel="stylesheet" href="static/reset.css">
+<link rel="stylesheet" href="static/bootstrap-grid.css">
+<link rel="stylesheet" href="static/animations.css">
+<link rel="stylesheet" href="static/perfect-scrollbar.css">
+<link rel="stylesheet" href="static/owl.css">
+<link rel="stylesheet" href="static/magnific-popup.css">
+<link rel="stylesheet" href="static/main.css">
+<link rel="stylesheet" href="static/css.css">
+<style>.gm-control-active>img{box-sizing:content-box;display:none;left:50%;pointer-events:none;position:absolute;top:50%;transform:translate(-50%,-50%)}.gm-control-active>img:nth-child(1){display:block}.gm-control-active:hover>img:nth-child(1),.gm-control-active:active>img:nth-child(1){display:none}.gm-control-active:hover>img:nth-child(2),.gm-control-active:active>img:nth-child(3){display:block}.gm-ui-hover-effect{opacity:.6}.gm-ui-hover-effect:hover{opacity:1}.gm-style .gm-style-cc span,.gm-style .gm-style-cc a,.gm-style .gm-style-mtc div{font-size:10px;box-sizing:border-box}@media print{.gm-style .gmnoprint, .gmnoprint{display:none}}@media screen{.gm-style .gmnoscreen, .gmnoscreen{display:none}}.gm-style-pbc{transition:opacity ease-in-out;background-color:rgba(0,0,0,0.45);text-align:center}.gm-style-pbt{font-size:22px;color:white;font-family:Roboto,Arial,sans-serif;position:relative;margin:0;top:50%;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%)}.gm-style img{max-width:none}.gm-style{font:400 11px Roboto,Arial,sans-serif;text-decoration:none}</style>
+<script src="static/modernizr.js"></script>
+<script>var curr='home';var curr_b='';document.addEventListener("DOMContentLoaded",(event)=>{curr_b=document.getElementById("nav_b");});function nav(but,page){document.getElementById(curr).classList.remove("section-active");document.getElementById(page).classList.add("section-active");curr=page;curr_b.classList.remove('active');but.classList.add('active');curr_b=but;}</script>
 </head>
-  <body class="vsc-initialized">
-    <div class="page">
-      <div class="page-content">
-          <header id="site_header" class="header mobile-menu-hide">
-            <div class="header-content">
-              <div class="header-photo">
-                <img src="static/main_photo.jpg" alt="Asif Ansari">
-              </div>
-              <div class="header-titles">
-                <h2>Asif Ansari</h2>
-                <h4>Senior Software Developer</h4>
-              </div>
-            </div>
-
-            <ul class="main-menu">
-              <li>
-                <a id="nav_b" href="#home" class="nav-anim active" onclick="nav(this, 'home');">
-                  <span class="menu-icon lnr lnr-home"></span>
-                  <span class="link-text">Home</span>
-                </a>
-              </li>
-              <li>
-                <a href="#about-me" class="nav-anim" onclick="nav(this, 'about-me');">
-                  <span class="menu-icon lnr lnr-user"></span>
-                  <span class="link-text">About</span>
-                </a>
-              </li>
-              <li>
-                <a href="#resume" class="nav-anim" onclick="nav(this, 'resume');">
-                  <span class="menu-icon lnr lnr-graduation-hat"></span>
-                  <span class="link-text">Resume</span>
-                </a>
-              </li>
-              <li>
-                <a href="#portfolio" class="nav-anim" onclick="nav(this, 'projects');">
-                  <span class="menu-icon lnr lnr-briefcase"></span>
-                  <span class="link-text">Projects</span>
-                </a>
-              </li>
-              <li>
-                <a href="#contact" class="nav-anim" onclick="nav(this, 'contact');">
-                  <span class="menu-icon lnr lnr-envelope"></span>
-                  <span class="link-text">Contact</span>
-                </a>
-              </li>
-            </ul>
-
-            <div class="social-links">
-              <ul>
-                <li><a href="https://www.linkedin.com/in/asif-ansari-a982b226" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
-              </ul>
-            </div>
-
-            <div class="header-buttons">
-              <a href="#" target="_blank" class="btn btn-primary">Download CV</a>
-            </div>
-          </header>
-
-
-          <div class="content-area">
-            <div class="animated-sections">
-              <!-- Home Subpage -->
-              <section id="home" class="animated-section start-page ps ps--theme_default section-active" data-ps-id="3e230e6b-595e-8473-daa6-3b4dd7e918a5">
-                <div class="section-content vcentered">
-                    <div class="row">
-                      <div class="col-sm-12 col-md-12 col-lg-12">
-                        <div class="title-block">
-                          <h2>Asif Ansari</h2>
-                          <div class="owl-carousel text-rotation owl-loaded owl-drag">                                    
-                          <div class="owl-stage-outer">
-                              <div class="owl-item active" style="width: 1264px;">
-                              <div class="item">
-                                <div class="sp-subtitle">Senior Software Developer (C++/Python)</div>
-                              </div>
-                              </div>
-                          </div>
-                           </div>
-                        </div>
-                      </div>
-                    </div>
-
-                </div>
-              <div class="ps__scrollbar-x-rail" style="left: 0px; bottom: 0px;"><div class="ps__scrollbar-x" tabindex="0" style="left: 0px; width: 0px;"></div></div><div class="ps__scrollbar-y-rail" style="top: 0px; right: 0px;"><div class="ps__scrollbar-y" tabindex="0" style="top: 0px; height: 0px;"></div></div></section>
-              <!-- End of Home Subpage -->
-
-              <!-- About Subpage -->
-              <section id="about-me" class="animated-section ps ps--theme_default ps--active-y" data-ps-id="859f273a-38b0-7313-55c3-09cdbb3098ad">
-                <div class="page-title">
-                  <h2>About</h2>
-                </div>
-
-                <div class="section-content">
-                  <!-- Personal Information -->
-                  <div class="row">
-                    <div class="col-xs-12 col-sm-7">
-                        <p>
-                            Asif Ansari is a Senior Software Developer and finance enthusiast, currently serving as Lead Analyst at CRISIL (an S&P Global company). He has a strong interest in finance and artificial intelligence, with extensive experience delivering projects in insurance, high-frequency trading, investment banking, and risk analytics using C++ and Python.
-                        </p>
-                    </div>
-
-                    <div class="col-xs-12 col-sm-5">
-                      <div class="info-list">
-                        <ul>
-                          <li>
-                            <span class="title">Work Experience</span>
-                            <span class="value">10+ Years</span>
-                          </li>
-
-                          <li>
-                            <span class="title">Residence</span>
-                            <span class="value">United Kingdom</span>
-                          </li>
-
-                          <li>
-                            <span class="title">Address</span>
-                            <span class="value">London, United Kingdom</span>
-                          </li>
-
-                          <li>
-                            <span class="title">e-mail</span>
-                            <span class="value">contact.asif.ansari@gmail.com</span>
-                          </li>
-
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- End of Personal Information -->
-
-                  <div class="white-space-50"></div>
-
-                  <!-- Services -->
-                  <div class="row">
-                    <div class="col-xs-12 col-sm-12">
-                      <div class="block-title">
-                        <h3>What <span>I Do</span></h3>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="row">
-                    <div class="col-xs-12 col-sm-6">
-                      <div class="col-inner">
-                        <div class="info-list-w-icon">
-                          <div class="info-block-w-icon">
-                            <div class="ci-icon">
-                              <i class="lnr lnr-screen"></i>
-                            </div>
-                            <div class="ci-text">
-                              <h4>Backend Applications</h4>
-                              <p>Backend applications for Windows and Linux platforms.</p>
-                            </div>
-                          </div>
-                          <div class="info-block-w-icon">
-                            <div class="ci-icon">
-                              <i class="lnr lnr-laptop-phone"></i>
-                            </div><div class="ci-text">
-                              <h4>Web Development</h4>
-                              <p>Design and development of web apps using Python, HTML, CSS, and JavaScript.</p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="col-xs-12 col-sm-6">
-                      <div class="col-inner">
-                        <div class="info-list-w-icon">
-                          <div class="info-block-w-icon">
-                            <div class="ci-icon">
-                              <i class="lnr lnr-rocket"></i>
-                            </div>
-                            <div class="ci-text">
-                              <h4>Performance critical applications</h4>
-                              <p>Performance critical/Realtime application for High Frequency Trading and Market Connectivity.</p>
-                            </div>
-                          </div>
-                          <div class="info-block-w-icon">
-                            <div class="ci-icon">
-                              <i class="lnr lnr-cloud"></i>
-                            </div><div class="ci-text">
-                              <h4>Cloud Deployment</h4>
-                                <p>Design, Development and Deployment of cloud native apps. Experienced with Kubernetes and Docker.</p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- End of Services -->
-
-                </div>
-              </section>
-              <!-- End of About Subpage -->
-
-              <!-- Resume Subpage -->
-              <section id="resume" class="animated-section ps ps--theme_default ps--active-y" data-ps-id="447affa3-49a9-7f29-57a6-3fb17aad0aa6">
-                <div class="page-title">
-                  <h2>Resume</h2>
-                </div>
-
-                <div class="section-content">
-
-                  <div class="row">
-                    <div class="col-xs-12 col-sm-7">
-
-                      <div class="block-title">
-                        <h3>Experience</h3>
-                      </div>
-
-                      <div class="timeline timeline-second-style clearfix">
-                          <div class="timeline-item clearfix">
-                              <div class="left-part">
-                                  <h5 class="item-period">Dec, 2019 - Current</h5>
-                                  <span class="item-company">CRISIL</span>
-                              </div>
-                              <div class="divider"></div>
-                              <div class="right-part">
-                                  <h4 class="item-title">Lead Analyst (C++/Python)</h4>
-                                  <p>Working with different clients within investment banking domain on various projects like:</p>
-                                  <p>- Developing Data Analytics pipelines using Python, automation with Apache Airflow</p>
-                                  <p>- Migration of Pricing Library from Windows to Linux and Implementation of the build system with CMake and Bash</p>
-                                  <p>- Implementation of statistical model in Python for Protfolio Stress Testing based on Basel III norms.</p>
-                              </div>
-                          </div>
-
-                          <div class="timeline-item clearfix">
-                              <div class="left-part">
-                                  <h5 class="item-period">May 2018 - Dec, 2019</h5>
-                                  <span class="item-company">J P Morgan Chase & Co</span>
-                              </div>
-                              <div class="divider"></div>
-                              <div class="right-part">
-                                  <h4 class="item-title">Application Developer (C++)</h4>
-                                  <p>Development of ultra low latency market connectivity solution called JISU</p>
-                              </div>
-                          </div>
-
-                          <div class="timeline-item clearfix">
-                              <div class="left-part">
-                                  <h5 class="item-period">Feb, 2017 - Apr, 2018</h5>
-                                  <span class="item-company">Dolat Capital</span>
-                              </div>
-                              <div class="divider"></div>
-                              <div class="right-part">
-                                  <h4 class="item-title">Low Latency C++ Developer</h4>
-                                  <p>Design, Development and Maintenance of High Frequncy Trading Application Suite.</p>
-                              </div>
-                          </div>
-
-                          <div class="timeline-item clearfix">
-                              <div class="left-part">
-                                  <h5 class="item-period">Aug, 2015 - Feb, 2017</h5>
-                                  <span class="item-company">Sapiens International Corporation</span>
-                              </div>
-                              <div class="divider"></div>
-                              <div class="right-part">
-                                  <h4 class="item-title">Associate Consultant</h4>
-                                  <p>Development of core business logic of end-to-end insurance lifecycle management solution called ALIS.</p>
-                              </div>
-                          </div>
-                      </div>
-
-                      <div class="white-space-50"></div>
-
-                      <div class="block-title">
-                        <h3>Education</h3>
-                      </div>
-                      
-                      <div class="timeline timeline-second-style clearfix">
-                        <div class="timeline-item clearfix">
-                          <div class="left-part">
-                            <h5 class="item-period">2015</h5>
-                            <span class="item-company">Center for Development of Advanced Computing</span>
-                          </div>
-                          <div class="divider"></div>
-                          <div class="right-part">
-                            <h4 class="item-title">Post Graduate Diploma in Advanced Computing</h4>
-                            <p>A 6 months PG Diploma course with with specialization in C++.</p>
-                          </div>
-                        </div>
-
-                        <div class="timeline-item clearfix">
-                          <div class="left-part">
-                            <h5 class="item-period">2014</h5>
-                            <span class="item-company">Uttar Pradesh Technical University</span>
-                          </div>
-                          <div class="divider"></div>
-                          <div class="right-part">
-                            <h4 class="item-title">B.Tech. (IT)</h4>
-                            <p>4 Year full time batchelor course with specialisation in Information Technology.</p>
-                          </div>
-                        </div>
-                      </div>
-
-                    </div>
-
-                    <!-- Skills & Certificates -->
-                    <div class="col-xs-12 col-sm-5">
-                      <!-- Design Skills -->
-                      <div class="block-title">
-                        <h3>Design <span>Skills</span></h3>
-                      </div>
-
-                      <div class="skills-info skills-second-style">
-                        <!-- Skill 1 -->
-                        <div class="skill clearfix">
-                          <h4>Web Design</h4>
-                          <div class="skill-value">60%</div>
-                        </div>
-                        <div class="skill-container skill-1">
-                          <div class="skill-percentage"></div>
-                        </div>
-                        <!-- End of Skill 1 -->
-                        
-                        <!-- Skill 2 -->
-                        <div class="skill clearfix">
-                          <h4>Application Design (Python)</h4>
-                          <div class="skill-value">80%</div>
-                        </div>
-                        <div class="skill-container skill-2">
-                          <div class="skill-percentage"></div>
-                        </div>
-                        <!-- End of Skill 2 -->
-                        
-                        <!-- Skill 3 -->
-                        <div class="skill clearfix">
-                            <h4>Application Design (C++)</h4>
-                          <div class="skill-value">75%</div>
-                        </div>
-                        <div class="skill-container skill-3">
-                          <div class="skill-percentage"></div>
-                        </div>
-                        <!-- End of Skill 3 -->
-
-                      </div>
-                      <!-- End of Design Skills -->
-
-                      <div class="white-space-10"></div>
-
-                      <!-- Coding Skills -->
-                      <div class="block-title">
-                        <h3>Coding <span>Skills</span></h3>
-                      </div>
-
-                      <div class="skills-info skills-second-style">
-                          <!-- Skill 4 -->
-                          <div class="skill clearfix">
-                              <h4>C++</h4>
-                              <div class="skill-value">95%</div>
-                          </div>
-                          <div class="skill-container skill-4">
-                              <div class="skill-percentage"></div>
-                          </div>
-                          <!-- End of Skill 4 -->
-                          <!-- Skill 5 -->
-                          <div class="skill clearfix">
-                              <h4>Python</h4>
-                              <div class="skill-value">90%</div>
-                          </div>
-                          <div class="skill-container skill-5">
-                              <div class="skill-percentage"></div>
-                          </div>
-                          <!-- End of Skill 5 -->
-                          <!-- Skill 6 -->
-                          <div class="skill clearfix">
-                              <h4>HTML/CSS</h4>
-                              <div class="skill-value">70%</div>
-                          </div>
-                          <div class="skill-container skill-6">
-                              <div class="skill-percentage"></div>
-                          </div>
-                          <!-- End of Skill 6 -->
-                          <!-- Skill 7 -->
-                          <div class="skill clearfix">
-                              <h4>Java</h4>
-                              <div class="skill-value">75%</div>
-                          </div>
-                          <div class="skill-container skill-7">
-                              <div class="skill-percentage"></div>
-                          </div>
-                          <!-- End of Skill 7 -->
-                          <!-- Skill 8 -->
-                          <div class="skill clearfix">
-                              <h4>JavaScript</h4>
-                              <div class="skill-value">60%</div>
-                          </div>
-                          <div class="skill-container skill-8">
-                              <div class="skill-percentage"></div>
-                          </div>
-                          <!-- End of Skill 8 -->
-                          <!-- Skill 9 -->
-                          <div class="skill clearfix">
-                              <h4>XML/JSON/YAML</h4>
-                              <div class="skill-value">85%</div>
-                          </div>
-                          <div class="skill-container skill-9">
-                              <div class="skill-percentage"></div>
-                          </div>
-                          <!-- End of Skill 9 -->
-                      </div>
-                      <!-- End of Coding Skills -->
-
-                      <div class="white-space-10"></div>
-
-                      <!-- Knowledges -->
-                      <div class="block-title">
-                        <h3>Knowledges</h3>
-                      </div>
-
-                        <ul class="knowledges">
-                          <li>C++</li>
-                          <li>Python</li>
-                          <li>Bash</li>
-                          <li>GIT</li>
-                          <li>GCC</li>
-                          <li>GDB</li>
-                          <li>BOOST</li>
-                          <li>Intel TBB</li>
-                          <li>OpenMP</li>
-                          <li>Pthreads</li>
-                          <li>Threading</li>
-                          <li>Multithreading</li>
-                          <li>Low Latency</li>
-                          <li>High Frequency Trading (HFT)</li>
-                          <li>Performance Optimization</li>
-                          <li>Memory Management</li>
-                          <li>Memory Pools</li>
-                          <li>Lock-Free Programming</li>
-                          <li>NUMA</li>
-                          <li>SIMD</li>
-                          <li>Vectorization</li>
-                          <li>Profiling</li>
-                          <li>Latency Measurement</li>
-                          <li>Real-time Systems</li>
-                          <li>Linux</li>
-                          <li>Windows</li>
-                          <li>Docker</li>
-                          <li>Kubernetes</li>
-                          <li>CI/CD</li>
-                          <li>CMake</li>
-                          <li>Airflow</li>
-                          <li>Pandas</li>
-                          <li>Polars</li>
-                          <li>Numpy</li>
-                          <li>Statsmodels</li>
-                          <li>ZeroMQ</li>
-                          <li>FIX Protocol</li>
-                          <li>TCP/UDP Sockets</li>
-                          <li>JIRA</li>
-                        </ul>
-                      <!-- End of Knowledges -->
-                    </div>
-                    <!-- End of Skills & Certificates -->
-                  </div>
-
-                  <div class="white-space-50"></div>
-
-                </div>
-              </section>
-              <!-- End of Resume Subpage -->
-
-              <!-- Portfolio Subpage -->
-              <section id="projects" class="animated-section ps ps--theme_default ps--active-y" data-ps-id="5ae0e34d-da0b-b40a-968a-25e6384fac4d">
-                <div class="page-title">
-                  <h2>Projects</h2>
-                </div>
-
-                <div class="section-content">
-                  <div class="row">
-                    <div class="col-xs-12 col-sm-12">
-                      <!-- Portfolio Content -->
-                      <div class="portfolio-content">
-
-                        <!-- Portfolio Grid -->
-                        <div class="portfolio-grid four-columns shuffle" style="position: relative; overflow: hidden; height: 981.466px; transition: height 450ms ease-out 0s;">
-                          
-                          <figure class="item shuffle-item filtered" style="position: absolute; top: 0px; left: 0px; visibility: visible; transition: transform 450ms ease-out 0s, opacity 450ms ease-out 0s;">
-                            <h4 class="name">ALIS</h4>
-                            <div class="portfolio-item-img">
-                              <img src="static/1.jpg" alt="ALIS" title="">
-                              <a href="https://www.sapiens.com/?s=ALIS" class="lightbox mfp-iframe" title="ALIS"></a>
-                              <span class="category">C++</span>
-                            </div>
-                          </figure>
-
-                          <figure class="item standard shuffle-item filtered" data-groups="[&quot;category_all&quot;, &quot;category_detailed&quot;]" style="position: absolute; top: 0px; left: 0px; visibility: visible; opacity: 1; transform: translate3d(436px, 0px, 0px) scale3d(1, 1, 1); transition: transform 450ms ease-out 0s, opacity 450ms ease-out 0s;">
-                            <h4 class="name">OptionWIN</h4>
-                            <div class="portfolio-item-img">
-                              <img src="static/2.jpg" alt="Media Project 2" title="">
-                              <a href="https://www.dolatcapital.com/" class="ajax-page-load"></a>
-                              <span class="category">C++</span>
-                            </div>
-                          </figure>
-
-                          <figure class="item lbvideo shuffle-item filtered" data-groups="[&quot;category_all&quot;, &quot;category_vimeo-videos&quot;]" style="position: absolute; top: 0px; left: 0px; visibility: visible; opacity: 1; transform: translate3d(872px, 0px, 0px) scale3d(1, 1, 1); transition: transform 450ms ease-out 0s, opacity 450ms ease-out 0s;">
-                            <h4 class="name">JISU</h4>
-                            <div class="portfolio-item-img">
-                              <img src="static/3.jpg" alt="Vimeo Video 1" title="">
-                              <a href="https://www.jpmorgan.com/IN/en/about-us" class="lightbox mfp-iframe" title="Vimeo Video 1"></a>
-                              <span class="category">C++</span>
-                            </div>
-                            
-                          </figure>
-
-                          <figure class="item standard shuffle-item filtered" data-groups="[&quot;category_all&quot;, &quot;category_detailed&quot;]" style="position: absolute; top: 0px; left: 0px; visibility: visible; opacity: 1; transform: translate3d(0px, 490px, 0px) scale3d(1, 1, 1); transition: transform 450ms ease-out 0s, opacity 450ms ease-out 0s;">
-                              <h4 class="name">SEM</h4>
-                              <div class="portfolio-item-img">
-                                  <img src="static/4.jpg" alt="Media Project 1" title="">
-                                  <a href="https://integraliq.crisil.com/en/homepage/what-we-do/financial-markets-solutions/regulatory-solutions/scenario-expansion-manager.html" class="ajax-page-load"></a>
-                                  <span class="category">Python</span>
-                              </div>
-                          </figure>
-
-                        </div>
-                      </div>
-                      <!-- End of Portfolio Content -->
-                    </div>
-                  </div>
-                </div>
-              </section>
-              <!-- End of Portfolio Subpage -->
-
-              <!-- Contact Subpage -->
-              <section id="contact" class="animated-section ps ps--theme_default" data-ps-id="af8acd45-927b-c800-a08a-975a1c5c56ea">
-                <div class="page-title">
-                  <h2>Contact</h2>
-                </div>
-
-                <div class="section-content">
-
-                    <div class="row">
-                        <!-- Contact Info -->
-
-                        <div class="lm-info-block gray-default col-sm-3">
-                            <i class="lnr lnr-map-marker"></i>
-                            <h4>London, United Kingdom</h4>
-                            <span class="lm-info-block-value"></span>
-                            <span class="lm-info-block-text"></span>
-                        </div>
-
-                        <div class="lm-info-block gray-default col-sm-3">
-                            <i class="lnr lnr-envelope"></i>
-                            <h4>contact.asif.ansari@gmail.com</h4>
-                            <span class="lm-info-block-value"></span>
-                            <span class="lm-info-block-text"></span>
-                        </div>
-
-                    </div>
-                </div>
-              <div class="ps__scrollbar-x-rail" style="left: 0px; bottom: 0px;"><div class="ps__scrollbar-x" tabindex="0" style="left: 0px; width: 0px;"></div></div><div class="ps__scrollbar-y-rail" style="top: 0px; right: 0px; height: 646px;"><div class="ps__scrollbar-y" tabindex="0" style="top: 0px; height: 634px;"></div></div></section>
-              <!-- End of Contact Subpage -->
-            </div>
-          </div>
-
-      </div>
-    </div>
-</body></html>
+<body class="vsc-initialized">
+<div class="page">
+<div class="page-content">
+<header id="site_header" class="header mobile-menu-hide">
+<div class="header-content">
+<div class="header-photo"><img src="static/main_photo.jpg" alt="Asif Ansari"></div>
+<div class="header-titles"><h2>Asif Ansari</h2><h4>Senior Software Developer</h4></div>
+</div>
+<ul class="main-menu">
+<li><a id="nav_b" href="#home" class="nav-anim active" onclick="nav(this, 'home');"><span class="menu-icon lnr lnr-home"></span><span class="link-text">Home</span></a></li>
+<li><a href="#about-me" class="nav-anim" onclick="nav(this, 'about-me');"><span class="menu-icon lnr lnr-user"></span><span class="link-text">About</span></a></li>
+<li><a href="#resume" class="nav-anim" onclick="nav(this, 'resume');"><span class="menu-icon lnr lnr-graduation-hat"></span><span class="link-text">Resume</span></a></li>
+<li><a href="#portfolio" class="nav-anim" onclick="nav(this, 'projects');"><span class="menu-icon lnr lnr-briefcase"></span><span class="link-text">Projects</span></a></li>
+<li><a href="#contact" class="nav-anim" onclick="nav(this, 'contact');"><span class="menu-icon lnr lnr-envelope"></span><span class="link-text">Contact</span></a></li>
+</ul>
+<div class="social-links"><ul><li><a href="https://www.linkedin.com/in/asif-ansari-a982b226" target="_blank"><i class="fab fa-linkedin-in"></i></a></li></ul></div>
+<div class="header-buttons"><a href="#" target="_blank" class="btn btn-primary">Download CV</a></div>
+</header>
+<div class="content-area">
+<div class="animated-sections">
+<section id="home" class="animated-section start-page ps ps--theme_default section-active">
+<div class="section-content vcentered">
+<div class="row"><div class="col-sm-12 col-md-12 col-lg-12"><div class="title-block"><h2>Asif Ansari</h2><div class="owl-carousel text-rotation owl-loaded owl-drag"><div class="owl-stage-outer"><div class="owl-item active"><div class="item"><div class="sp-subtitle">Senior Software Developer (C++/Python)</div></div></div></div></div></div></div>
+</div>
+</section>
+<section id="about-me" class="animated-section ps ps--theme_default ps--active-y">
+<div class="page-title"><h2>About</h2></div>
+<div class="section-content">
+<div class="row">
+<div class="col-xs-12 col-sm-7"><p>Asif Ansari is a Senior Software Developer and finance enthusiast, currently serving as Lead Analyst at CRISIL (an S&P Global company). He has a strong interest in finance and artificial intelligence, with extensive experience delivering projects in insurance, high-frequency trading, investment banking, and risk analytics using C++ and Python.</p></div>
+<div class="col-xs-12 col-sm-5"><div class="info-list"><ul><li><span class="title">Work Experience</span><span class="value">10+ Years</span></li><li><span class="title">Residence</span><span class="value">United Kingdom</span></li><li><span class="title">Address</span><span class="value">London, United Kingdom</span></li><li><span class="title">e-mail</span><span class="value">contact.asif.ansari@gmail.com</span></li></ul></div></div>
+</div>
+<div class="white-space-50"></div>
+<div class="row"><div class="col-xs-12 col-sm-12"><div class="block-title"><h3>What <span>I Do</span></h3></div></div></div>
+<div class="row">
+<div class="col-xs-12 col-sm-6"><div class="col-inner"><div class="info-list-w-icon"><div class="info-block-w-icon"><div class="ci-icon"><i class="lnr lnr-screen"></i></div><div class="ci-text"><h4>Backend Applications</h4><p>Backend applications for Windows and Linux platforms.</p></div></div><div class="info-block-w-icon"><div class="ci-icon"><i class="lnr lnr-laptop-phone"></i></div><div class="ci-text"><h4>Web Development</h4><p>Design and development of web apps using Python, HTML, CSS, and JavaScript.</p></div></div></div></div></div>
+<div class="col-xs-12 col-sm-6"><div class="col-inner"><div class="info-list-w-icon"><div class="info-block-w-icon"><div class="ci-icon"><i class="lnr lnr-rocket"></i></div><div class="ci-text"><h4>Performance critical applications</h4><p>Performance critical/Realtime application for High Frequency Trading and Market Connectivity.</p></div></div><div class="info-block-w-icon"><div class="ci-icon"><i class="lnr lnr-cloud"></i></div><div class="ci-text"><h4>Cloud Deployment</h4><p>Design, Development and Deployment of cloud native apps. Experienced with Kubernetes and Docker.</p></div></div></div></div>
+</div>
+</div>
+</section>
+<section id="resume" class="animated-section ps ps--theme_default ps--active-y">
+<div class="page-title"><h2>Resume</h2></div>
+<div class="section-content">
+<div class="row">
+<div class="col-xs-12 col-sm-7">
+<div class="block-title"><h3>Experience</h3></div>
+<div class="timeline timeline-second-style clearfix">
+<div class="timeline-item clearfix"><div class="left-part"><h5 class="item-period">Dec, 2019 - Current</h5><span class="item-company">CRISIL</span></div><div class="divider"></div><div class="right-part"><h4 class="item-title">Lead Analyst (C++/Python)</h4><p>Working with different clients within investment banking domain on various projects like:</p><p>- Developing Data Analytics pipelines using Python, automation with Apache Airflow</p><p>- Migration of Pricing Library from Windows to Linux and Implementation of the build system with CMake and Bash</p><p>- Implementation of statistical model in Python for Protfolio Stress Testing based on Basel III norms.</p></div></div>
+<div class="timeline-item clearfix"><div class="left-part"><h5 class="item-period">May 2018 - Dec, 2019</h5><span class="item-company">J P Morgan Chase & Co</span></div><div class="divider"></div><div class="right-part"><h4 class="item-title">Application Developer (C++)</h4><p>Development of ultra low latency market connectivity solution called JISU</p></div></div>
+<div class="timeline-item clearfix"><div class="left-part"><h5 class="item-period">Feb, 2017 - Apr, 2018</h5><span class="item-company">Dolat Capital</span></div><div class="divider"></div><div class="right-part"><h4 class="item-title">Low Latency C++ Developer</h4><p>Design, Development and Maintenance of High Frequncy Trading Application Suite.</p></div></div>
+<div class="timeline-item clearfix"><div class="left-part"><h5 class="item-period">Aug, 2015 - Feb, 2017</h5><span class="item-company">Sapiens International Corporation</span></div><div class="divider"></div><div class="right-part"><h4 class="item-title">Associate Consultant</h4><p>Development of core business logic of end-to-end insurance lifecycle management solution called ALIS.</p></div></div>
+</div>
+<div class="white-space-50"></div>
+<div class="block-title"><h3>Education</h3></div>
+<div class="timeline timeline-second-style clearfix">
+<div class="timeline-item clearfix"><div class="left-part"><h5 class="item-period">2015</h5><span class="item-company">Center for Development of Advanced Computing</span></div><div class="divider"></div><div class="right-part"><h4 class="item-title">Post Graduate Diploma in Advanced Computing</h4><p>A 6 months PG Diploma course with with specialization in C++.</p></div></div>
+<div class="timeline-item clearfix"><div class="left-part"><h5 class="item-period">2014</h5><span class="item-company">Uttar Pradesh Technical University</span></div><div class="divider"></div><div class="right-part"><h4 class="item-title">B.Tech. (IT)</h4><p>4 Year full time batchelor course with specialisation in Information Technology.</p></div></div>
+</div>
+</div>
+<div class="col-xs-12 col-sm-5">
+<div class="block-title"><h3>Design <span>Skills</span></h3></div>
+<div class="skills-info skills-second-style">
+<div class="skill clearfix"><h4>Web Design</h4><div class="skill-value">60%</div></div><div class="skill-container skill-1"><div class="skill-percentage"></div></div>
+<div class="skill clearfix"><h4>Application Design (Python)</h4><div class="skill-value">80%</div></div><div class="skill-container skill-2"><div class="skill-percentage"></div></div>
+<div class="skill clearfix"><h4>Application Design (C++)</h4><div class="skill-value">75%</div></div><div class="skill-container skill-3"><div class="skill-percentage"></div></div>
+</div>
+<div class="white-space-10"></div>
+<div class="block-title"><h3>Coding <span>Skills</span></h3></div>
+<div class="skills-info skills-second-style">
+<div class="skill clearfix"><h4>C++</h4><div class="skill-value">95%</div></div><div class="skill-container skill-4"><div class="skill-percentage"></div></div>
+<div class="skill clearfix"><h4>Python</h4><div class="skill-value">90%</div></div><div class="skill-container skill-5"><div class="skill-percentage"></div></div>
+<div class="skill clearfix"><h4>HTML/CSS</h4><div class="skill-value">70%</div></div><div class="skill-container skill-6"><div class="skill-percentage"></div></div>
+<div class="skill clearfix"><h4>Java</h4><div class="skill-value">75%</</div></div><div class="skill-container skill-7"><div class="skill-percentage"></div></div>
+<div class="skill clearfix"><h4>JavaScript</h4><div class="skill-value">60%</div></div><div class="skill-container skill-8"><div class="skill-percentage"></div></div>
+<div class="skill clearfix"><h4>XML/JSON/YAML</h4><div class="skill-value">85%</div></div><div class="skill-container skill-9"><div class="skill-percentage"></div></div>
+</div>
+<div class="white-space-10"></div>
+<div class="block-title"><h3>Knowledges</h3></div>
+<ul class="knowledges">
+<li>C++</li><li>Python</li><li>Bash</li><li>GIT</li><li>GCC</li><li>GDB</li><li>BOOST</li><li>Intel TBB</li><li>OpenMP</li><li>Pthreads</li><li>Threading</li><li>Multithreading</li><li>Low Latency</li><li>High Frequency Trading (HFT)</li><li>Performance Optimization</li><li>Memory Management</li><li>Memory Pools</li><li>Lock-Free Programming</li><li>NUMA</li><li>SIMD</li><li>Vectorization</li><li>Profiling</li><li>Latency Measurement</li><li>Real-time Systems</li><li>Linux</li><li>Windows</li><li>Docker</li><li>Kubernetes</li><li>CI/CD</li><li>CMake</li><li>Airflow</li><li>Pandas</li><li>Polars</li><li>Numpy</li><li>Statsmodels</li><li>ZeroMQ</li><li>FIX Protocol</li><li>TCP/UDP Sockets</li><li>JIRA</li>
+</ul>
+</div>
+</div>
+<div class="white-space-50"></div>
+</div>
+</section>
+<section id="projects" class="animated-section ps ps--theme_default ps--active-y">
+<div class="page-title"><h2>Projects</h2></div>
+<div class="section-content">
+<div class="row"><div class="col-xs-12 col-sm-12">
+<div class="portfolio-content">
+<div class="portfolio-grid four-columns shuffle">
+<figure class="item shuffle-item filtered"><h4 class="name">ALIS</h4><div class="portfolio-item-img"><img src="static/1.jpg" alt="ALIS"><a href="https://www.sapiens.com/?s=ALIS" class="lightbox mfp-iframe" title="ALIS"></a><span class="category">C++</span></div></figure>
+<figure class="item standard shuffle-item filtered"><h4 class="name">OptionWIN</h4><div class="portfolio-item-img"><img src="static/2.jpg" alt="Media Project 2"><a href="https://www.dolatcapital.com/" class="ajax-page-load"></a><span class="category">C++</span></div></figure>
+<figure class="item lbvideo shuffle-item filtered"><h4 class="name">JISU</h4><div class="portfolio-item-img"><img src="static/3.jpg" alt="Vimeo Video 1"><a href="https://www.jpmorgan.com/IN/en/about-us" class="lightbox mfp-iframe" title="Vimeo Video 1"></a><span class="category">C++</span></div></figure>
+<figure class="item standard shuffle-item filtered"><h4 class="name">SEM</h4><div class="portfolio-item-img"><img src="static/4.jpg" alt="Media Project 1"><a href="https://integraliq.crisil.com/en/homepage/what-we-do/financial-markets-solutions/regulatory-solutions/scenario-expansion-manager.html" class="ajax-page-load"></a><span class="category">Python</span></div></figure>
+</div>
+</div>
+</div></div>
+</div>
+</section>
+<section id="contact" class="animated-section ps ps--theme_default">
+<div class="page-title"><h2>Contact</h2></div>
+<div class="section-content">
+<div class="row">
+<div class="lm-info-block gray-default col-sm-3"><i class="lnr lnr-map-marker"></i><h4>London, United Kingdom</h4><span class="lm-info-block-value"></span><span class="lm-info-block-text"></span></div>
+<div class="lm-info-block gray-default col-sm-3"><i class="lnr lnr-envelope"></i><h4>contact.asif.ansari@gmail.com</h4><span class="lm-info-block-value"></span><span class="lm-info-block-text"></span></div>
+</div>
+</div>
+</section>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
