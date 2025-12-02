@@ -553,19 +553,22 @@ input[type="submit"]:focus {
 #resume.animated-section {
   overflow-y: auto;
   overflow-x: hidden;
+  padding-right: 15px;
 }
 
 #resume .section-content {
   max-height: calc(100% - 40px);
   overflow-y: auto;
+  overflow-x: hidden;
+  padding-right: 5px;
 }
 
 #resume .section-content::-webkit-scrollbar {
-  width: 8px;
+  width: 10px;
 }
 
 #resume .section-content::-webkit-scrollbar-track {
-  background: #333;
+  background: transparent;
   border-radius: 10px;
 }
 
